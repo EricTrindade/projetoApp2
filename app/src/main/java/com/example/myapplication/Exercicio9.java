@@ -27,6 +27,7 @@ public class Exercicio9 extends AppCompatActivity {
     }
 
     public void calcularMedia(View et){
+
         n1=Double.parseDouble(av1.getText().toString());
         n2=Double.parseDouble(av2.getText().toString());
         aluno=nome.getText().toString();
