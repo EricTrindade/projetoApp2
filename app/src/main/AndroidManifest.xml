@@ -9,7 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Exercicio9" android:label="Faculdade">
+        <activity android:name=".Exercicio11" android:label="Restaurante">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exercicio10"
+            android:label="Categoria">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exercicio9"
+            android:label="Faculdade">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
